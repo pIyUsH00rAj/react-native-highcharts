@@ -27,6 +27,19 @@ class ChartWeb extends Component {
                         user-select: none;
                         -webkit-user-select: none;
                     }
+                   @font-face {
+                         font-family: 'DMSans';
+                         src: local('DMSans'), url(fonts/DMSans-Regular.ttf) format('truetype');
+                   }
+
+                    @font-face {
+                      font-family: 'DMSans-Bold';
+                      src: local('DMSans-Bold'), url(fonts/DMSans-Bold.ttf) format('truetype');
+                    } 
+
+                    * {
+                      font-family: 'DMSans' !important;
+                    } 
                     </style>
                     <head>
                         <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
