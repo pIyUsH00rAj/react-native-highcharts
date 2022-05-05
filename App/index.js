@@ -26,19 +26,6 @@ class ChartWeb extends Component {
                         position:absolute;
                         user-select: none;
                         -webkit-user-select: none;
-                    }
-                   @font-face {
-                         font-family: 'DMSans';
-                         src: local('DMSans'), url(./DMSans-Regular.ttf) format('truetype');
-                   }
-
-                    @font-face {
-                      font-family: 'DMSans-Bold';
-                      src: local('DMSans-Bold'), url(./DMSans-Bold.ttf) format('truetype');
-                    } 
-
-                    * {
-                      font-family: 'DMSans' !important;
                     } 
                     </style>
                     <head>
