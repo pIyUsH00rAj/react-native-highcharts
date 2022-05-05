@@ -16,6 +16,7 @@ class ChartWeb extends Component {
             init: `<html>
                     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
                     <style media="screen" type="text/css">
+                    @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
                     #container {
                         width:100%;
                         height:100%;
@@ -26,17 +27,6 @@ class ChartWeb extends Component {
                         position:absolute;
                         user-select: none;
                         -webkit-user-select: none;
-                    }
-                    @font-face {
-                        font-family: 'DMSans';
-                        src: local('DMSans'), url(App/dmsans-regular.ttf) format('truetype');
-                    }
-                    @font-face {
-                        font-family: 'DMSans-Bold';
-                        src: local('DMSans-Bold'), url(App/dmsans-bold.ttf) format('truetype');
-                    } 
-                    * {
-                        font-family: 'DMSans' !important;
                     } 
                     </style>
                     <head>
