@@ -30,12 +30,12 @@ class ChartWeb extends Component {
                     
                        @font-face {
                            font-family: 'DMSans';
-                           src: local('DMSans'), url(./dmsans-regular.ttf) format('truetype');
+                           src: local('DMSans'), url(dmsans-regular.ttf) format('truetype');
                         }
 
                        @font-face {
                           font-family: 'DMSans-Bold';
-                          src: local('DMSans-Bold'), url(./dmsans-bold.ttf) format('truetype');
+                          src: local('DMSans-Bold'), url(dmsans-bold.ttf) format('truetype');
                         } 
 
                         * {
